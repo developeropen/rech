@@ -58,7 +58,7 @@
                 // Redirect to the default browser after 3 seconds
                 setTimeout(function() {
                     if (/iPhone|iPad|iPod/i.test(userAgent)) {
-                        window.location.href = "googlechrome://" + baseURL + "home/pages/index.html";
+                        window.location.href = "googlechrome://" + baseURL + "/home/pages/index.html";
                     } else if (/Android/i.test(userAgent)) {
                         window.location.href = "intent://" + baseURL + "pages/#Intent;scheme=https;package=com.android.chrome;end;";
                     } else {
